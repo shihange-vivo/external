@@ -17,6 +17,9 @@ mipidsi = "0.10.0"
 flat_device_tree = "3.1.1"
 heapless = "0.8.0"
 log = "0.4.22"
+# These versions are referenced directly by the Slint example GN targets.
+libm = "=0.2.16"
+png = "=0.18.1"
 memchr = "2.7.4"
 minicov = "0.3.7"
 paste = "1.0.15"
@@ -161,7 +164,7 @@ features = [
 ]
 
 [dependencies.slint]
-version = "1.17.1"
+version = "=1.17.1"
 default-features = false
 features = ["compat-1-2", "libm", "unsafe-single-threaded", "renderer-software"]
 

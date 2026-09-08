@@ -568,6 +568,9 @@ license_files = ["README.md"]
 [crate.i-slint-core]
 license_files = ["README.md"]
 
+[crate.png]
+license_files = ["LICENSE-APACHE", "LICENSE-MIT"]
+
 [crate.objc2-core-location]
 license_files = ["README.md"]
 
